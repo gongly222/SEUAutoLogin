@@ -118,8 +118,8 @@ def get_report_data(ss):
         tempFormData['IDCARD_NO'] = userInfo['IDENTITY_CREDENTIALS_NO']
         tempFormData['GENDER_CODE'] = userInfo['GENDER_CODE']
 
-        tempFormData['CLASS_CODE'] = userInfo['CLASS_CODE']
-        tempFormData['CLASS'] = userInfo['CLASS']
+        # tempFormData['CLASS_CODE'] = userInfo['CLASS_CODE']
+        # tempFormData['CLASS'] = userInfo['CLASS']
         tempFormData['RYSFLB'] = userInfo['RYSFLB']
         tempFormData['USER_NAME'] = userInfo['USER_NAME']
         tempFormData['DEPT_CODE'] = userInfo['DEPT_CODE']  # 学院编号
